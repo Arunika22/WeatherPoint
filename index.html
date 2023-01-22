@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WeatherPoint</title>
+    <link rel ="stylesheet" href ="style.css">
+    
+
+  
+     
+  </head>
+  <body>
+  
+    
+    <div class="heading">
+      <h1 align ="center">WEATHER POINT</h1>
+    </div>
+    <div class="place-container">
+      <!-- <div class="time-zone" id="time-zone">Asia/Kolkata</div>
+      <div id="country" class="country">INDIA</div> -->
+      <!-- Load icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- The form -->
+<object align ="right">
+  <form class="example" action="action_page.php">
+    <input id="city" type="text" placeholder="Search.." name="search">
+    <button type="submit" id ="submit"><i class="fa fa-search"></i></button>
+    </form>
+        </div>
+      </div>
+</object>
+
+   <div class="centeralign">
+    <div class="container">
+      <div class = "city"><h2>Weather of  <span id="cityname"></span></h2></div>
+      <div class="current-info">
+        <div class="date-container">
+          <div class="time" id ="time">
+            12:30 <span id ="am-pm">PM</span>
+          </div><div class="date" id ="date">
+            Saturday 21 Janurary
+          </div>
+          <div class="others" id = "current-weather-items">
+            <div class = "Weather-item">
+              <div>Humidity</div>
+              <div><span id ='humidity'></span></div>
+              
+            </div>
+            <div class = "Weather-item">
+              <div>MaxTemp</div>
+              <div><span id ='max_temp'></span></div>
+            </div>
+            <div class = "Weather-item">
+              <div>Min Temp</div>
+              <div><span id ='min_temp'></span>
+            </div>
+            
+        </div>
+      </div>
+     
+       
+    
+    </div>
+   
+    
+   </div>
+    
+    <div class="future-forecast">
+      <div class="today" id="current-temp">
+        <div class="day">Cloud_pct</div>
+        <img src="https://cdn-icons-png.flaticon.com/128/3799/3799996.png" alt="weather icon" class="w-icon">
+         <div class="other">
+        
+         
+         
+          <div class="temp"><span id ='cloud_pct'></span></div>
+         </div>
+          
+        
+       
+        
+        
+      </div>
+      <div class="weather-forecast" id="weather-forecast">
+        <div class="weather-forecast-item">
+          <div class="day">Feels-like</div>
+          <img src="https://cdn-icons-png.flaticon.com/128/5035/5035619.png" alt="weather icon" class="w-icon">
+          
+      
+          <div class="temp"><span id ='feels_like'></span></div>
+
+        </div>
+        <div class="weather-forecast-item">
+          <div class="day">Sunrise</div>
+          <img src="https://cdn-icons-png.flaticon.com/128/1146/1146824.png" alt="weather icon" class="w-icon">
+          
+        
+          <div class="temp"><span id ='sunrise'></span></div>
+
+        </div>
+        <div class="weather-forecast-item">
+          <div class="day">Sunset</div>
+          <img src="https://cdn-icons-png.flaticon.com/128/3236/3236899.png" alt="weather icon" class="w-icon">
+          
+        
+          <div class="temp"><span id ='sunset'></span></div>
+
+        </div>
+        <div class="weather-forecast-item">
+          <div class="day">WindSpeed</div>
+          <img src="https://cdn-icons-png.flaticon.com/128/2011/2011448.png" alt="weather icon" class="w-icon">
+          
+          
+          <div class="temp"><span id ='wind_speed'></span></div>
+
+        </div>
+        <div class="weather-forecast-item">
+          <div class="day">Wind Degrees</div>
+          <img src="https://cdn-icons-png.flaticon.com/128/8781/8781974.png" alt="weather icon" class="w-icon">
+          
+          
+          <div class="temp"><span id ='wind_degrees'></span></div>
+
+        </div>
+        
+      </div>
+     </div>
+     <script src = "script.js"></script>
+  </body>
+</html>
